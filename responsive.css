@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+/*tampilan responsif untuk laptop ukuran 1200px ke bawah*/
+@media (max-width: 1200px) {
+  /*tampilan responsif untuk bagian footer di bagian info*/
+  footer .info{
+    width:  100%;
+  }
+}
+
+
+/*tampilan responsif untuk laptop ukuran 1000px ke bawah */
+@media (max-width: 1000px) {
+  /*tampilan responsif untuk bagian footer di bagian info*/
+  footer .info{
+    width:  100%;
+  }
+}
+
+
+/*tampilan responsif untuk tablet ukuran 800px ke bawah */
+@media (max-width: 800px) {
+  /*tampilan responsif untuk bagian footer di bagian info*/
+  footer .info{
+    width:  100%;
+  }
+}
+
+
+/*tampilan responsif untuk smartphone ukuran 600px ke bawah */
+@media (max-width: 600px) {
+  /*tampilan responsif untuk bagian footer di bagian info*/
+  .info-content p {
+    display: block;
+    width: 30%;
+  }
+}
