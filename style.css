@@ -1,0 +1,49 @@
+*{margin: 0px auto;}
+html,body{
+    height: 100%;
+}
+
+.container{
+    min-height: 100%;
+    position: relative;
+}
+li {
+    list-style: none;
+}
+header {
+    height: 50px;
+    background-color: darkblue;
+}
+.content {
+    padding: 10px;
+}
+footer{
+	padding: 30px 50px;
+	background-color: skyblue;
+	color: black;
+	text-align: center;
+}
+footer img {
+    width: 100px;
+}
+footer .info {
+    padding: 30px 0;
+}
+.info-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+.info-content p {
+	display: block;
+	width: 30%;
+}
+.sosmed {
+    opacity: 0.8;
+    letter-spacing: 15px;
+    margin-bottom: 30px;
+}
+.sosmed:hover {
+    opacity: 1;
+}
