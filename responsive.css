@@ -34,6 +34,7 @@
   /*tampilan responsif untuk bagian footer di bagian info*/
   .info-content p {
     display: block;
-    width: 30%;
+    text-align: center;
+    width: 100%;
   }
 }
