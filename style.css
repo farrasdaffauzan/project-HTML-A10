@@ -1,23 +1,195 @@
-*{margin: 0px auto;}
-html,body{
-    height: 100%;
+/*
+    Styling Header - Candi Agusta
+*/
+* {
+	padding: 0;
+	margin: 0;
 }
 
-.container{
-    min-height: 100%;
-    width: 100%;
-    position: relative;
+a {
+	color: white;
+	text-decoration: none;
 }
-li {
-    list-style: none;
-}
+
 header {
-    height: 50px;
-    background-color: darkblue;
+	background-image: url('./borobudur.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	position: relative;
+	color: white;
 }
-.content {
-    padding: 10px;
+
+header::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	opacity: 0.7;
 }
+
+.container {
+	width: 1070px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+nav {
+	padding: 10px 0;
+}
+
+.header-socmed {
+	display: flex;
+	justify-content: end;
+}
+
+.header-socmed i {
+	color: black;
+	background-color: aliceblue;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px;
+	opacity: 0.7;
+	margin-right: 5px;
+}
+
+.header-socmed i:hover {
+	opacity: 1;
+}
+
+.header-socmed div {
+	display: inline;
+	padding: 5px;
+	border: 1px solid white;
+	font-size: 0.8em;
+	opacity: 0.7;
+}
+
+.nav-items {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-items h1 {
+	display: block;
+	width: 50%;
+}
+
+.line {
+	width: 100%;
+	height: 2px;
+	background-color: rgb(189, 189, 189);
+	opacity: 0.5;
+	margin-top: 3px;
+}
+
+.nav-link {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-links {
+	display: inline-block;
+	transition: all 0.2s;
+}
+
+.nav-links:hover {
+	color: #ff9050;
+}
+
+.active {
+	color: #ff9050;
+	position: relative;
+}
+
+.active::after {
+	content: '';
+	display: block;
+	background-color: #ff9050;
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	bottom: -3px;
+}
+
+.jumbotron {
+	margin-top: 80px;
+}
+
+.jumbotron h1 {
+	font-weight: 900;
+	font-size: 3em;
+}
+
+.jumbotron p {
+	padding: 20px 0;
+	font-size: 1.1em;
+	color: #aeafae;
+}
+
+.jumbotron a {
+	display: inline-block;
+	transition: all 0.2s;
+}
+
+.jumbotron .main-btn {
+	padding: 10px 40px;
+	background-color: #ff9050;
+	border: 2px solid #ff9050;
+	border-radius: 50px;
+	margin-right: 40px;
+}
+
+.jumbotron .main-btn:hover {
+	background-color: #faae83;
+	border-color: #faae83;
+}
+
+.jumbotron .btn {
+	padding: 10px 30px;
+	border: 2px solid #ff9050;
+	border-radius: 50px;
+	margin-right: 40px;
+}
+
+.jumbotron .btn:hover {
+	background-color: #ff9050;
+}
+
+.buttons {
+	margin-top: 10px;
+}
+
+.fa-angle-down {
+	padding: 10px 13px;
+	background-color: #ff9050;
+	position: absolute;
+	z-index: 100;
+	border-radius: 20px;
+	bottom: -20px;
+	left: 50%;
+	cursor: pointer;
+    transform: translateX(-50%);
+}
+
+.fa-angle-down:hover {
+	background-color: #faae83;
+}
+
+/*
+    Styling Footer - M Syarif Hidayatullah
+*/
+
 footer{
   padding: 30px 50px;
   background-color: skyblue;
