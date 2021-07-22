@@ -191,12 +191,16 @@ nav {
     Styling Footer - M Syarif Hidayatullah
 */
 
+
 footer{
   padding: 30px 50px;
-  background-color: skyblue;
+  /*styling background color - Izmilia Prastika
+  biar warnanya jadi senada sama warna container */
+  background-color: #b2bfce;
   color: black;
   text-align: center;
 }
+
 footer img {
     width: 100px;
 }
@@ -209,24 +213,49 @@ footer .info {
   margin-bottom: 5px;
   letter-spacing: 2px;
 }
+
 .info-content p {
   display: block;
   width: 30%;
 }
+
 .sosmed {
     opacity: 0.8;
     letter-spacing: 15px;
     margin-bottom: 30px;
 }
-.sosmed:hover {
+
+
+/*styling warna hover icon socmed - Izmilia Prastika
+  warnanya abu-abu dan bayangannya berubah jd bulat */
+.fa-instagram:hover {
     opacity: 1;
+    border-radius: 20px;
+    background-color: #99a4b0;
 }
 
+.fa-twitter:hover {
+    opacity: 1;
+    border-radius: 20px;
+    background-color: #99a4b0;
+}
+
+.fa-facebook:hover {
+    opacity: 1;
+    border-radius: 20px;
+    background-color: #99a4b0;
+}
+
+.fa-google-plus:hover {
+    opacity: 0.5;
+    border-radius: 20px;
+    background-color: #99a4b0;
+}
 
 /* Styling menu-icon Izmilia Prastika'
 Berfungsi untuk menghilangkan tampilan menu header
 untuk ukuran layar 670px ke bawah */
-.menu-icon {
+span .menu-icon:after {
   color: white;
   float: right;
   font-size: 25px;

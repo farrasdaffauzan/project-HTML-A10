@@ -62,6 +62,10 @@ untuk ukuran layar 670px ke bawah */
     margin-right: 30px;
   }
 
+  .jumbotron p {
+    font-size: 20px;
+  }
+
   /*tampilan responsif untuk bagian footer di bagian info*/
   footer .info{
     width:  100%;
@@ -113,6 +117,10 @@ untuk ukuran layar 670px ke bawah */
     border: 1px solid #ff9050;
     border-radius: 25px;
     margin-right: 20px;
+  }
+
+  .jumbotron p {
+    font-size: 16px;
   }
 
   /*ubah ukuran tombol Pesan Tiket
