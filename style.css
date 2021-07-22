@@ -33,7 +33,7 @@ header::after {
 }
 
 .container {
-    width: 1070px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -219,5 +219,14 @@ footer .info {
 }
 .sosmed:hover {
     opacity: 1;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
 }
 © 2021 GitHub, Inc.

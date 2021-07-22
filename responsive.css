@@ -11,6 +11,8 @@
 }
 
 
+/* file responsive - Izmilia Prastika */
+
 /*tampilan responsif untuk laptop ukuran 1000px ke bawah */
 @media (max-width: 1000px) {
   /*tampilan responsif untuk bagian footer di bagian info*/
@@ -22,19 +24,31 @@
 
 /*tampilan responsif untuk tablet ukuran 800px ke bawah */
 @media (max-width: 800px) {
+  body {
+    width: 75%;
+  }
+
   /*tampilan responsif untuk bagian footer di bagian info*/
   footer .info{
     width:  100%;
+  }
+  
+  .info-content p {
+    font-size: 13px;
   }
 }
 
 
 /*tampilan responsif untuk smartphone ukuran 600px ke bawah */
 @media (max-width: 600px) {
+  body {
+    width: 50%;
+  }
+  
   /*tampilan responsif untuk bagian footer di bagian info*/
   .info-content p {
     display: block;
     text-align: center;
-    width: 100%;
+    font-size: 13px;
   }
 }
