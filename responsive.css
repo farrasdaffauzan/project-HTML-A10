@@ -14,7 +14,7 @@
 /* file responsive - Izmilia Prastika */
 
 /*tampilan responsif untuk laptop ukuran 1000px ke bawah */
-@media (max-width: 1000px) {
+@media (max-width: 1000px) {  
   /*tampilan responsif untuk bagian footer di bagian info*/
   footer .info{
     width:  100%;
@@ -26,6 +26,14 @@
 @media (max-width: 800px) {
   body {
     width: 75%;
+  }
+
+  /* Styling menu-icon Izmilia Prastika'
+Berfungsi untuk memunculkan icon 'burger'
+sebagai pengganti menu nav-link
+untuk ukuran layar 670px ke bawah */
+  .menu-icon {
+    display:  none;
   }
 
   /*tampilan responsif untuk bagian footer di bagian info*/
@@ -40,15 +48,38 @@
 
 
 /*tampilan responsif untuk smartphone ukuran 600px ke bawah */
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   body {
     width: 50%;
   }
   
+  /* Styling mav-link Izmilia Prastika'
+Berfungsi untuk menghilangkan tampilan menu header
+untuk ukuran layar 670px ke bawah */
+  .nav-link {
+    display:  none;
+  }
+
+
+  /* Styling menu-icon Izmilia Prastika'
+Berfungsi untuk memunculkan icon 'burger'
+sebagai pengganti menu nav-link
+untuk ukuran layar 670px ke bawah */
+  .menu-icon {
+    display:  block;
+  }
+
   /*tampilan responsif untuk bagian footer di bagian info*/
   .info-content p {
-    display: block;
     text-align: center;
     font-size: 13px;
+  }
+
+  footer .info{
+    width:  100%;
+  }
+
+  .clear {
+    clear: left;
   }
 }

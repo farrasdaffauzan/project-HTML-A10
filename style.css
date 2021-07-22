@@ -96,6 +96,7 @@ nav {
     width: 50%;
     display: flex;
     justify-content: space-between;
+
 }
 
 .nav-links {
@@ -221,6 +222,10 @@ footer .info {
     opacity: 1;
 }
 
+
+/* Styling menu-icon Izmilia Prastika'
+Berfungsi untuk menghilangkan tampilan menu header
+untuk ukuran layar 670px ke bawah */
 .menu-icon {
   color: white;
   float: right;
