@@ -78,6 +78,13 @@ untuk ukuran layar 670px ke bawah */
   body {
     width: 50%;
   }
+
+  /*Fungsinya untuk memperkecil ukuran container
+  pada ukuran smartphone, sehingga tampil responsif */
+  header {
+    width: 100%;
+    font-size: 12px;
+  }
   
   /* Styling mav-link Izmilia Prastika'
 Berfungsi untuk menghilangkan tampilan menu header
@@ -127,13 +134,15 @@ untuk ukuran layar 670px ke bawah */
   }
 
   footer .info{
-    display:  flex;
     flex-wrap:  wrap;
   }
 
-  .info-content {
-    flex: auto;
-    width:  50%;
+  /*Ubah ukuran font bagian info-content
+  agar huruf tidak kebesaran untuk ukuran
+  smartphone*/
+  .info-content p{
+    width:  100%;
+    font-size:  7px;
   }
 
   .clear {
