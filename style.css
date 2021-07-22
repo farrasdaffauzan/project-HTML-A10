@@ -230,24 +230,32 @@ footer .info {
   warnanya abu-abu dan bayangannya berubah jd bulat */
 .fa-instagram:hover {
     opacity: 1;
+    width: 15px;
+    height: 18px;
     border-radius: 20px;
     background-color: #99a4b0;
 }
 
 .fa-twitter:hover {
     opacity: 1;
+    width: 15px;
+    height: 18px;
     border-radius: 20px;
     background-color: #99a4b0;
 }
 
 .fa-facebook:hover {
     opacity: 1;
+    width: 15px;
+    height: 18px;
     border-radius: 20px;
     background-color: #99a4b0;
 }
 
 .fa-google-plus:hover {
     opacity: 0.5;
+    width: 15px;
+    height: 18px;
     border-radius: 20px;
     background-color: #99a4b0;
 }
