@@ -234,4 +234,9 @@ untuk ukuran layar 670px ke bawah */
   /* Gantikan property display ke none */
   display: none;
 }
+
+
+.fa-bars:before {
+    content:  "";
+}
 © 2021 GitHub, Inc.
