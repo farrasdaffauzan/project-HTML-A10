@@ -66,6 +66,11 @@ untuk ukuran layar 670px ke bawah */
     font-size: 20px;
   }
 
+   /*tampilan responsif untuk bagian main */
+  main {
+    width: 75%;
+  }
+
   /*tampilan responsif untuk bagian footer di bagian info*/
   footer .info{
     width:  100%;
@@ -86,7 +91,7 @@ untuk ukuran layar 670px ke bawah */
   /*Fungsinya untuk memperkecil ukuran container
   pada ukuran smartphone, sehingga tampil responsif */
   header {
-    width: 100%;
+    width: 50%;
     font-size: 12px;
   }
   
@@ -117,10 +122,7 @@ untuk ukuran layar 670px ke bawah */
     border: 1px solid #ff9050;
     border-radius: 25px;
     margin-right: 20px;
-  }
-
-  .jumbotron p {
-    font-size: 16px;
+    margin-bottom: 20px;
   }
 
   /*ubah ukuran tombol Pesan Tiket
@@ -135,10 +137,20 @@ untuk ukuran layar 670px ke bawah */
     margin-right: 20px;
   }
 
+  .jumbotron p {
+    font-size: 16px;
+  }
+
   /*tampilan responsif untuk bagian footer di bagian info*/
   .info-content p {
     text-align: center;
     font-size: 10px;
+  }
+
+
+  /*tampilan responsif untuk bagian main */
+  main {
+    width: 50%;
   }
 
   footer .info{
