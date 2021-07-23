@@ -188,6 +188,107 @@ nav {
 }
 
 /*
+    Styling Body Main - Angga Abriansyah
+*/
+body{
+        margin:0;
+    }
+    
+.box{
+    width:100%;
+    margin:0 128px;
+    position:relative;
+}
+
+.box-1{
+    width:100%;
+    margin:0 70px;
+    position:relative;
+}
+    
+.box .header{
+    height:120px;
+    /*  border:1px solid #f00;*/
+    line-height:120px;
+}
+    
+.box .left{
+    margin-left: 31px;
+    width:200px;
+    height:400px;
+    position:absolute;
+}
+
+.box .center{
+    display: flex;
+    height:400px;       
+    margin:0 747px 0 239px;
+}
+    
+.box .right{
+    width:474px;
+    height:400px;
+    position:absolute;
+    right:0;
+    margin:0 18px;
+    top:120px;
+    margin-right:190px;
+}
+    
+.box .right h1{
+    text-align: left;
+}
+    
+.box .right p{
+    text-align: left;
+}
+
+/*----------*/
+.box-1 .left1{
+    margin-left: 90px;
+    width:450px;
+    height:400px;
+    /*background-color:#90a090;*/
+    position:absolute;
+}
+    
+.box-1 .center1{
+    display: flex;
+    justify-content: flex-end;
+    height:400px;
+    /*background-color:#9772a0;*/
+    margin:0 303px 0 216px;
+}
+    
+.box-1 .right1{
+    width:200px;
+    height:405px;
+    /*background-color:#d48c37;*/
+    position:absolute;
+    right:97px;
+    top:0px; 
+}
+
+.messege {
+    padding: 15px 40px;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+/*
     Styling Footer - M Syarif Hidayatullah
 */
 
