@@ -146,6 +146,7 @@ nav {
 	border: 2px solid #ff9050;
 	border-radius: 50px;
 	margin-right: 40px;
+    margin-top: 50px;
 }
 
 .main-btn:hover {
@@ -219,8 +220,6 @@ main {
 
 .box-image {
 	width: 45%;
-	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 }
 
@@ -256,6 +255,94 @@ main {
 /*
     Styling Body Main - Angga Abriansyah
 */
+
+
+/* Start styling Body - M Farras Daffauzan */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap');
+
+:root {
+    --main-grey: #FFFFFF;
+    --main-white: #aeafae;
+    --main-text: #539592;
+  }
+
+.containerbody{
+    text-align: center;
+}
+
+.main-containerbody{
+    background-color: var(--main-grey);
+    color: var(--main-text);
+    padding: 2rem 0rem;
+}
+
+.main-containerbody2{
+    background-color: var(--main-white);
+    color: var(--main-grey);
+}
+
+.main-containerbody .title h2{
+    font-family: "zen loop";
+    font-size: 34px;
+    margin: auto;
+}
+
+.title h1 {
+    margin: auto;
+    font-size: 32px;
+}
+
+.content{
+    margin: 1rem;
+}
+
+.content p{
+    margin: auto;
+}
+
+.main-content{
+    display: inline-flex;
+}
+
+.main-content2{
+    display: inline-block;
+}
+
+.card{
+    margin: 4px;
+}
+
+.location{
+    margin: 2rem;
+}
+
+iframe {
+    width: 800px;
+    height: 400px;
+}
+
+.text {
+    width: 18rem;
+    height: 1rem;
+    border-radius: 25px;
+    padding: 12px;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+.button{
+    padding: 1rem;
+}
+
+button {
+    padding: 1rem 8rem;
+    border-radius: 36px;
+    border: 1px solid black;
+}
+
+/* End styling Body - M Farras Daffauzan */
+
 
 /*
     Styling Footer - M Syarif Hidayatullah
@@ -404,12 +491,13 @@ untuk ukuran layar 670px ke bawah */
 	}
 
 	.main-1 {
-		display: flex;
+		display: block;
 	}
 
 	.box-1,
 	.box-2 {
 		width: 100%;
+        margin-top: 40px;
 	}
 
 	.buttons {
@@ -417,6 +505,41 @@ untuk ukuran layar 670px ke bawah */
 		justify-content: space-around;
 		align-items: center;
 	}
+
+	/* Start responsive mobile - M Farras Daffauzan */
+
+.main-content{
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .card{
+	padding: 5px 17px;
+  }
+  
+  .main-containerbody2 .card {
+	padding: 5px 1px;
+  }
+  
+  .card img{
+	width: 130px;
+	height: 200px;
+  }
+  
+  .location{
+	margin: 23px auto;
+  }
+  
+  .location iframe{
+	width: fit-content;
+	height: fit-content;
+  }
+  
+  .main-content2{
+	display: block;
+  }
+  
+  /* End responsive mobile - M Farras Daffauzan */
 
 	.navbar {
 		display: flex;
@@ -436,4 +559,29 @@ untuk ukuran layar 670px ke bawah */
 	.navbar-active {
 		top: 0;
 	}
+}
+
+
+@media all and (max-width: 1180px) {
+
+	/*start responsive tablet body - M Farras Daffauzan */	
+	.main-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .location{
+        margin: 23px auto;
+    }
+
+    .location iframe{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .main-content2{
+        display: block;
+    }
+    /*End responsive tablet body - M Farras Daffauzan */
+
 }

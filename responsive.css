@@ -83,7 +83,7 @@ untuk ukuran layar 670px ke bawah */
 
 
 /*tampilan responsif untuk smartphone ukuran 600px ke bawah */
-@media (max-width: 680px) {
+@media all and (max-width: 680px) {
   body {
     width: 50%;
   }
@@ -147,6 +147,51 @@ untuk ukuran layar 670px ke bawah */
     font-size: 10px;
   }
 
+
+  main {
+  margin: 70px 0;
+}
+
+.main-1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.box-1 {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-image {
+  width: 45%;
+  justify-content: space-between;
+}
+
+.box-image img {
+  width: 100%;
+}
+
+.box-image-2 {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.box-image-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box-2 {
+  width: 45%;
+}
+
+.box-2 h1:nth-child(2) {
+  text-transform: uppercase;
+}
 
   /*tampilan responsif untuk bagian main */
   main {
